@@ -18,14 +18,14 @@ development:
   database: tabla_development
   pool: 5
   username: postgres
-  password:potsgres
+  password: postgres
   host: localhost
   port: 5432
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
   # domain sockets, so uncomment these lines.
- 
+
 
   # Schema search path. The server defaults to $user,public
   #schema_search_path: myapp,sharedapp,public
@@ -44,8 +44,8 @@ test:
   encoding: unicode
   database: tabla_test
   pool: 5
-   username: postgres
-  password:potsgres
+  username: postgres
+  password: postgres
   host: localhost
   port: 5432
 
@@ -54,7 +54,7 @@ production:
   encoding: unicode
   database: tabla_production
   pool: 5
-   username: postgres
-  password:potsgres
+  username: postgres
+  password: postgres
   host: localhost
   port: 5432
